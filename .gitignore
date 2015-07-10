@@ -1,3 +1,4 @@
+scripts/.install-sdk-tmp.sh
 build/*/
 build/*.zip
 build/*.exe
@@ -31,7 +32,7 @@ node_modules/*
 !node_modules/frontdoor
 !node_modules/kaefer
 node_modules/kaefer/node_modules/
-!node_modules/nak
+node_modules/nak
 !node_modules/pivottable
 !node_modules/smith
 !node_modules/treehugger
